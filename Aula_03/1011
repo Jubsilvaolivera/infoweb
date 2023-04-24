@@ -1,1 +1,7 @@
+raio = int(input())
 
+pi = 3,14159
+
+V = float(4 * pi * (raio* raio * raio) / 3.0)
+
+print("VOLUME =", f"{V:.3f}")
