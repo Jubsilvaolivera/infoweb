@@ -1,1 +1,11 @@
+A1 = int(input())
+A2 = int(input())
+A3 = int(input())
 
+MG_A1 = A2 * 2 + A3 * 4
+MG_A2 = A1 * 2 + A3 * 2
+MG_A3 = A1 * 4 + A2 * 2
+    
+minutosLista = [MG_A1, MG_A2, MG_A3]
+minutosLista.sort()
+print(minutosLista[0])    

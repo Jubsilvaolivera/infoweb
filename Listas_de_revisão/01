@@ -1,1 +1,5 @@
+class Circulo:
+   def __init__(self):
+self.R = 3
+
 
